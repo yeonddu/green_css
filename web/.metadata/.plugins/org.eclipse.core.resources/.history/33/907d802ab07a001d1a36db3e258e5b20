@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form>
+<fieldset>
+	<legend>그룹 제목</legend>
+	<ul>
+		<li>
+			<label for="autofocus">autofocus</label>
+			<input type="text" id="autofocus" autofocus>
+			<label for="placeholder">placeholder</label>
+			<input type="text" id="placeholder" placeholder="placeholder">
+		</li>
+	</ul>
+</fieldset>
+</form>
+
+</body>
+</html>

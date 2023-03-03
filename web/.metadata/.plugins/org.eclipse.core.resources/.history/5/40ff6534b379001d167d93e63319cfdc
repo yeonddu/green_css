@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>플렉스 박스를 사용해 사이트 구성하기</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+	* {
+		margin:0;
+		padding:0;
+		box-sizing:border-box;
+	}
+	header, footer {
+		width:100%;
+		text-align:center;
+		margin:5px;
+		padding:20px;	
+		border:1px solid #ccc;
+	}
+	.container {
+		display:flex;
+		flex-direction:row;
+		flex-wrap:wrap;
+	}
+	
+	.item {
+		width:300px;
+		height:200px;
+		margin:5px;
+		flex-grow:1;
+		border:1px solid #ccc;
+	}
+	.item5 {
+		flex-grow:2;
+	}
+</style>
+</head>
+<body>
+	<header>
+		<h2>스누피와 친구들</h2>	
+	</header>
+	<section class="contianer">
+		<div class="item item1"></div>
+		<div class="item item2"></div>
+		<div class="item item3"></div>
+		<div class="item item4"></div>
+		<div class="item item5"></div>
+	</section>
+	<footer>
+		<p>귀여워</p>
+	</footer>
+</body>
+</html>

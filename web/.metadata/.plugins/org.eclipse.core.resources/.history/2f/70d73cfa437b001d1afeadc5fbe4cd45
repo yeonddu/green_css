@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<style>
+	* {
+		margin:0;
+		padding:0;
+	}
+	.container {
+		position:absolute;
+		width:960px;
+	}
+	header {
+		position:relative;
+		height:200px;
+		margin:5px;
+		border:1px solid #ccc;
+	}
+	nav {
+		position:relative;
+		height:60px;
+		margin:5px;
+		border:1px solid #ccc;
+	}
+	section {
+		position:relative;
+		float:left;
+		width:720px;
+		margin:5px;
+		border:1px solid #ccc;
+	}
+	aside {
+		position:relative;
+		float:right;
+		width:210px;
+		margin:5px;
+		border:1px solid #ccc;
+	}
+	footer {
+		clear:both;
+		margin:5px;
+		border:1px solid #ccc;
+	}
+	
+	header h1 {
+		position:absolute;
+		top:60px;
+		left:800px;
+	}
+	nav ul li {
+		display:inline-block;		
+	}
+	nav a {
+		display:block;
+		width:150px;
+		text-decoration:none;
+		border:1px solid #ccc;
+	}
+	
+</style>
+</head>
+<body>
+<div class="container">
+	<header>
+		<h1>제목1</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="#">메뉴1</a></li>
+			<li><a href="#">메뉴2</a></li>
+			<li><a href="#">메뉴3</a></li>
+			<li><a href="#">메뉴4</a></li>
+		</ul>
+	</nav>
+	<section>
+		<h2>제목2</h2>
+		<article>
+			<h3>제목3</h3>
+			<p>내용</p>
+		</article>
+	</section>	
+	<aside>
+		<h3>제목3</h3>
+		<p>내용</p>
+	</aside>
+	<div class="content">
+		<section>
+		<h2>제목2</h2>
+		<article>
+			<h3>제목3</h3>
+			<p>내용</p>
+		</article>
+	</section>	
+	<aside>
+		<h3>제목3</h3>
+		<p>내용</p>
+	</aside>
+	</div>
+	<footer>
+		<address>
+			<p>주소</p>
+			<p>메일</p>
+		</address>
+	</footer>
+</div>
+</body>
+</html>

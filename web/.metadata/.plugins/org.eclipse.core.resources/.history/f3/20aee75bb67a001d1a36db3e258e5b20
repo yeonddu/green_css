@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>Insert title here</title>
+</head>
+<body>
+<body>
+<table>
+	<caption>thead, tbody, tfoot</caption>
+	<thead>
+		<tr>
+			<th>thead</th>
+			<th>thead</th>
+			<th>thead</th>
+		</tr>		
+	</thead>
+	<tbody>
+		<tr>
+			<th>tbody</th>
+			<td>tbody</td>
+			<td>tbody</td>
+		</tr>
+		<tr>
+			<th>tbody</th>
+			<td>tbody</td>
+			<td>tbody</td>
+		</tr>
+	</tbody>
+	<tfoot>
+		<tr>
+			<th>tfoot</th>
+			<td>tfoot</td>
+			<td>tfoot</td>
+		</tr>
+	</tfoot>
+</table>
+
+</body>
+</html>

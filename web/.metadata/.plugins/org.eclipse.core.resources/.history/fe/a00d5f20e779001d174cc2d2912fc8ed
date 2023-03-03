@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>플렉스 박스를 사용해 사이트 구성하기</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+	* {
+		margin:0; padding:0; box-sizing:border-box;
+	}
+	#wrapper {
+		width:100%;
+	}
+	header {
+		width:100%;
+	}
+	.container {
+		width:100%;
+	}
+
+	.container > div {
+		width:100%;
+		height:200px;
+		border:1px solid #ccc;
+		margin-bottom:15px;
+		
+	}
+
+	
+	@media screen and (min-width:768px) and (max-width:991px) {
+	
+		.container {
+			display:flex;
+			flex-direction:row;
+			flex-wrap:wrap;
+		}
+		.container > div {
+			flex-grow:1;
+		}
+		.item5 {
+			flex-grow:2;
+		}
+	}
+	
+	@media screen and (min-width:992px){
+	
+	}
+</style>
+</head>
+<body>
+	<div id="wrapper">
+	<header>
+		<h2>스누피</h2>
+	</header>
+	<section class="container">
+		<div class="item1"></div>
+		<div class="item2"></div>
+		<div class="item3"></div>
+		<div class="item4"></div>					
+		<div class="item5"></div>
+	</section>	
+	<footer>
+		<p>snoopy</p>
+	</footer>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>플렉스 박스를 사용해 사이트 구성하기</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+	.container {
+		display:flex;
+		flex-direction:row;
+		flex-wrap:wrap;
+	}
+	.item {
+		flex-grow:1;
+		width:300px;
+		border:1px solid #ccc;
+	}
+	.item5 {
+		flex-grow:2;
+	}
+</style>
+</head>
+<body>
+	<section class="container">
+		<div class="item"></div>
+		<div class="item"></div>
+		<div class="item"></div>
+		<div class="item"></div>					
+		<div class="item item5"></div>
+	</section>
+</body>
+</html>

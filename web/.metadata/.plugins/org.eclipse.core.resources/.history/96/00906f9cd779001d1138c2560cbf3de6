@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>플렉스 박스를 사용해 사이트 구성하기</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+	* {
+		margin:0;
+		padding:0;
+		box-sizing:border-box;
+	}
+	body {
+		background:#F6CECE;
+	}
+	#wrapper {
+		margin:1%;
+		width:100%;
+	}	
+
+	header {
+		width:100%;
+		text-align:center;
+		padding:2% 5%;
+		border:1px solid #F78181;		
+	}		
+	#container {
+		width:100%;
+	}
+	#container > div {
+		position:relative;
+		height:300px;
+		margin:1% 0;
+		border:1px solid #F78181;
+		background-color:rgb(254, 252, 252);
+		}
+	.box1 {
+		background:url('../images/sn1.png') no-repeat;
+		background-size:contain;
+	}
+	.box2 {
+		background:url('../images/sn2.png') no-repeat;
+		background-size:cover;
+	}	
+	.box3 {
+		background:url('../images/sn3.png') no-repeat;
+		background-size:cover;
+	}
+	.box4 {
+		background:url('../images/sn4.png') no-repeat;
+		background-size:cover;
+	}	
+	.box5 {
+		background:url('../images/sn5.png') no-repeat;
+		background-size:cover;
+	}
+
+	footer {
+		text-align:center;
+		padding:2% 5%;
+		background:#F5A9A9;
+	}
+	
+	@media screen and (min-width:620px) and (max-width:930px) {
+	#container {
+		display:flex;
+		flex-wrap:wrap;
+		flex-direction:row;
+	}
+		
+		.box {
+			width:49%;
+			margin:0.5%;
+		}
+		.box5 {
+			width:100%;
+		}	
+	}	
+	@media screen and (min-width:930px) {
+		#container {
+		display:flex;
+		flex-wrap:wrap;
+		flex-direction:row;
+	}
+		
+		.box {
+			width:33%;
+			margin:0.3%;
+		}
+		.box5 {
+			flex : 2 2 0;
+		}	
+	}
+
+	
+</style>
+</head>
+<body>
+	<div id="wrapper">
+	<header>
+		<h2>스누피와 친구들</h2>	
+	</header>
+	<section id="container">
+		<div class="box box1"></div>
+		<div class="box box2"></div>
+		<div class="box box3"></div>
+		<div class="box box4"></div>	
+		<div class="box box5"></div>
+	</section>
+	<footer>
+		<p>snoopy</p>
+	</footer>
+			
+	</div>
+</body>
+</html>

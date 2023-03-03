@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>Insert title here</title>
+<style>
+	table, th, td {
+		border:1px solid #ccc;
+	}
+	th, td {
+	width:80px;
+	padding:5px;
+	}
+</style>
+</head>
+<body>
+<body>
+	<figure>
+		<figcaption>
+			<p><figure>, <figcaption></p>
+		</figcaption>
+
+	<table>
+		<tr>
+			<th>브라우저</th>
+			<th>제조업체</th>
+			<th>다운로드</th>
+		</tr>
+</table>
+</figure>
+</body>
+</html>

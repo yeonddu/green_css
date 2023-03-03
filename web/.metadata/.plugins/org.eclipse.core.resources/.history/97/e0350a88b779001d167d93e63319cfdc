@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>플렉스 박스를 사용해 사이트 구성하기</title>
+<style>
+	* {
+		margin:0;
+		padding:0;
+	}
+	body {
+		background:#F6CECE;
+	}
+	#wrapper {
+		margin:5px;
+	}	
+	header, footer {
+		width:300px;
+		text-align:center;
+		margin:5px;
+		padding:20px;
+		box-sizing:border-box;
+	}
+	header {
+		border:1px solid #F78181;		
+	}		
+	#container {
+		display:flex;
+		flex-wrap:wrap;
+	}
+	.box {
+		width:300px;
+		height:170px;
+		margin:5px;
+		border:1px solid #F78181;
+		background-color:rgb(254, 252, 252);
+		box-sizing:border-box;
+	}
+	
+	.box img {
+		max-width:100%;
+		height:auto;
+	}
+	
+	footer {
+		background:#F5A9A9;
+	}
+	
+	@media screen and (min-width:620px) and (max-width:930px) {
+		header, footer {
+			width:610px;
+		}
+		#long {
+			align-self:flex-end;
+			width:610px;
+			background-image:url('../images/sn6.png')
+		}	
+	}	
+	@media screen and (min-width:930px) {
+		header, footer {
+			width:920px;
+		}
+		#long {
+			align-self:flex-end;
+			width:610px;
+		}			
+	}
+	@media screen and (min-width:1240px) {
+		header, footer {
+			width:1230px;
+		}
+		#long {
+			align-self:flex-end;
+			width:610px;
+		}			
+	}
+	
+</style>
+</head>
+<body>
+	<div id="wrapper">
+	<header>
+		<h2>스누피와 친구들</h2>	
+	</header>
+	<section>
+		<div id="container">
+		<div class="box"><img src="../images/sn1.png" alt="스누피"></div>
+		<div class="box"><img src="../images/sn2.png" alt="스누피"></div>
+		<div class="box"><img src="../images/sn3.png" alt="스누피"></div>
+		<div class="box" id="bottom"><img src="../images/sn4.png" alt="스누피"></div>	
+		<div class="box" id="long"><img src="../images/sn5.png" alt="스누피"></div>
+		</div>
+	</section>
+	<footer>
+		<p>귀여워</p>
+	</footer>
+			
+	</div>
+</body>
+</html>

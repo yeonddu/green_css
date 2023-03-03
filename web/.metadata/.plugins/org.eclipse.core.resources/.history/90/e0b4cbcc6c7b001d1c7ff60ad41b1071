@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>layout</title>
+<style>
+	* {
+		margin:0;
+		padding:0;
+	}
+	body {
+		font-size:12px;
+	}
+	.container {
+		position:absolute;
+		width:600px;
+	}
+	header {
+		position:relative;
+		height:80px;
+	}	
+	nav {
+		position:relative;
+		height:60px;
+	}
+	section {
+		position:relative;
+		float:left;
+		width:390px;
+		height:150px;
+		background-image:url(images/dog.jpg);
+		background-size:cover;
+		color:white;
+	}
+	aside {
+		position:relative;
+		float:right;
+		width:180px;
+		height:150px;
+		background-color:yellow;
+	}
+	footer {
+		clear:both;
+		height:100px;
+	}
+	header, nav, section, aside, footer {
+		border:2px solid yellowgreen;
+		margin:5px;
+	}
+</style>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<p>상단 헤더</p>
+		</header>
+		<nav>
+			<p>네비게이션 메뉴
+		</nav>
+		
+		<section>
+			<p> 메인 콘텐츠</p>
+		</section>
+		<aside>
+			<p>사이드바</p>
+		</aside>
+		<footer>
+			<p>하단 푸터</p>
+		</footer>
+	</div>
+</body>
+</html>

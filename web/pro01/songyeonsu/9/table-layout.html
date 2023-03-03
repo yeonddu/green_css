@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>표 스타일</title>
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+	
+	body {
+		font-family: 'Yeon Sung', cursive;
+	}
+	table, td {
+		border:1px solid #ccc;
+	}
+	.table1 {
+		border-collapse:collapse;
+		width:300px;
+		table-layout:fixed;
+		word-break:break-all;
+		height:auto;
+		margin-bottom:10px;
+	}
+	.table2 {
+		border-collapse:collapse;
+		width:300px;
+		table-layout:auto;
+		word-break:break-all;
+		height:auto;
+		margin-bottom:10px;
+	}
+	.table3 {
+		border-collapse:collapse;
+		width:300px;
+		table-layout:fixed;
+		height:auto;
+	}
+
+	td {
+		width:150px;
+		border:1px solid black;
+		padding:5px;
+	}
+</style>
+</head>
+<body>
+	<h1>table layout</h1>
+	<table class="table1">
+		<tr>
+			<td>한글로띄어쓰기없기길게붙여쓰기</td>
+			<td>long_description_without_space</td>
+		</tr>
+	</table>
+	<table class="table2">
+		<tr>
+			<td>한글로띄어쓰기없기길게붙여쓰기</td>
+			<td>long_description_without_space</td>
+		</tr>
+	</table>
+	<table class="table3">
+		<tr>
+			<td>한글로띄어쓰기없기길게붙여쓰기</td>
+			<td>long_description_without_space</td>
+		</tr>
+	</table>
+
+</body>
+</html>

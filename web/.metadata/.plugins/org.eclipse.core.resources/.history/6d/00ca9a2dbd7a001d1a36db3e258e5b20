@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<style>
+	div {
+		width:100px;
+		height:80px;
+		margin:15px;
+		padding:15px;
+		border:2px solid gray;
+	}
+	.box1 {
+		position:static;
+		left:20px;
+		top:20px;
+	}
+	.box2 {
+		position:relative;
+	}
+	.box3 {
+		position:absolute;
+	}
+</style>
+</head>
+<body>
+	<p></p>
+	<div class="box1">box1 position:static</div>
+	<div class="box2">box2 position:relative</div>
+	<div class="box3">box3 position:absolute</div>
+</body>
+</html>

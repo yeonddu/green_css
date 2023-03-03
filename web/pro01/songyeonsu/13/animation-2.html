@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>Transform</title>
+<style>
+	div {
+		width:100px;
+		height:100px;
+		float:left;
+		margin:50px;
+	}
+	
+	#box1 {
+		background-color :beige;
+		border:1px solid brown;
+		animation-name:shape;
+		animation-duration:3s;
+	}
+	#box2 {
+		background-color :#F8E6E0;
+		border:1px solid beige;
+		animation-name:rotate;
+		animation-duration:3s;
+	}
+	@keyframes shape{
+		from {
+			border: 1px solid #F7819F;
+		}
+		to {
+			border: 1px solid #ccc;
+			border-radius:50%;
+		}
+	}
+	@keyframes rotate {
+		from {
+			transform:rotate(0deg);
+		}
+		to {
+			transform:rotate(45deg);
+		}
+	}
+</style>
+</head>
+<body>
+	<div id="box1"></div>
+	<div id="box2"></div>
+</body>
+</html>

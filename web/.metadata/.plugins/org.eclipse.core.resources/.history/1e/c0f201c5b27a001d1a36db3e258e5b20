@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form>
+<fieldset>
+	<legend>input 태그 속성</legend>
+		<label>autofocus <input type="text"autofocus></label>
+		<label>placeholder <input type="text" placeholder="placeholder"></label>			
+		<label>readonly <input type="text" readonly></label>
+		<label>required <input type="text" required></label>
+		
+		<label>최소5글자, 최대15글자, 10글자까지 보이게 <input type="text" size="10" minlength="5" maxlength="15"></label>		
+</fieldset>
+</form>
+
+</body>
+</html>

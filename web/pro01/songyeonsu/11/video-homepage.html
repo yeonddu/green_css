@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>동영상 배경</title>
+<style>
+	#container {
+		position:relative;
+		text-align:center;
+		margin-top: 5%;
+	    margin-left: 5%;
+	}
+	h2 {
+		font-size:1.5em;
+		color:#f7a25d;
+		text-shadow:1px 1px 1px #000;
+	}
+	h1 {
+		font-size:2em;
+		color:#6a5043;
+		text-shadow:1px 1px 1px #000;
+	}
+	a:link, a:visited {
+		text-decoration:none;
+		color:#fdf1db;
+	}
+	a:hover {
+		cursor:pointer;
+	}
+	#bg {
+		position:fixed;
+		left:0;
+		top:0;
+		width:auto;
+		height:auto;
+		min-width:100%;
+		min-height:100%;
+		z-index:-100;
+		background:url(../images/snoopy.jpg) left top no-repeat;
+		background-size:cover;
+	}
+</style>
+</head>
+<body>
+	<section>
+		<video src="../media/snoopy.mp4" autoplay loop muted poster="../images/snoopy/jpg" id="bg"></video>
+		<div id="container">
+			<h2>피자 만드는 스누피</h2>
+			<h1><a href="https://www.youtube.com/watch?v=5PRCQyYIxGI&list=PLtCOh78dW3oWw9guQ2_D6Y4seBf-yBR5p&index=2">피자만드는 스누피 보러가기</a></h1>
+		</div>
+	</section>
+</body>
+</html>

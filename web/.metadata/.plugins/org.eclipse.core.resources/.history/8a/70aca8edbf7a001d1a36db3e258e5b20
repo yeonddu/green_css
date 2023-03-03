@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<style>
+	table {
+	border-collapse:collapse
+	}
+</style>
+</head>
+<body>
+	<table>
+	<p>border-collapse:collapse</p>
+		<tr>
+			<th>th</th>
+			<td>td</td>
+		</tr>
+		<tr>
+			<th>th</th>
+			<td>td</td>
+		</tr>		
+	</table>
+</body>
+</html>

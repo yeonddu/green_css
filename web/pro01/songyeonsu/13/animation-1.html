@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>Transform</title>
+<style>
+	div {
+		width:100px;
+		height:100px;
+		background:pink;
+		animation-name:change-bg;
+		animation-duration:3s;
+	}
+	@keyframes change-bg{
+		from {
+			background-color:pink;
+			border:1px solid #ccc;
+		}
+		to {
+			background-color:yellow;
+			border:1px solid pink;
+			border-radius:50%;
+		}
+	}
+</style>
+</head>
+<body>
+	<div></div>
+</body>
+</html>

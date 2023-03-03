@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>Media Queries</title>
+<meta name="viewport" content="width=devide-width, initial-scale=1">
+<style>
+	* {
+		margin:0;
+		padding:0;
+	}
+	body {
+		background:#F6CECE;
+	}
+	#container {
+		width:320px;
+		margin:50px auto;
+		
+	}
+	.card {
+		position:relative;
+		width:300px;
+		height:400px;
+		margin:20px 10px;
+		border:1px solid #F78181;
+		background-color:#F8E0E0;
+	}
+	.words {
+		position:absolute;
+		left:10px;
+		top:250px;
+		padding:10px;
+		text-align:center;		
+	}
+	@media screen and (min-width:768px) and (max-width:1719px) {
+		#container {
+			width:570px;
+			margin:50px auto;
+		}
+		.card {
+			position:relative;
+			width:550px;
+			height:200px;
+			margin:20px 10px;
+			border:1px solid #F78181;
+			background-color:#F8E0E0;
+		}
+		.words {
+			position:absolute;
+			width:200px;
+			left:330px;
+			top:35px;
+			text-align:center;
+		}
+	}
+	@media screen and (min-width:1720px) {
+		#container {
+			width:1710px;
+			margin:50px auto;
+		}
+		.card {
+			position:relative;
+			float:left;
+			width:550px;
+			height:200px;
+			margin:10px;
+			border:1px solid #F78181;
+			background-color:#F8E0E0
+		}
+		.words {
+			position:absolute;
+			width:200px;
+			left:330px;
+			top:35px;
+			text-align:center;
+		}
+	}
+	
+</style>
+</head>
+<body>
+	<div class="card">
+		<img src="../images/que1.jpg">
+		<div class="words">
+			<h2>일 분 전만큼 먼 시간은 없다.</h2>
+			<h3>- Jim Bishop</h3>
+		</div>
+	</div>
+	<div class="card">
+		<img src="../images/que2.jpg">
+		<div class="words">
+			<h2>웃음은 마음의 조깅이다.</h2>
+			<h3>- Norman Cousins</h3>
+		</div>
+	</div>
+	<div class="card">
+		<img src="../images/que3.jpg">
+		<div class="words">
+			<h2>낡은 옷은 그냥 입고 새 책을 사라</h2>
+			<h3>- Austin Phelps</h3>
+		</div>
+	</div>
+</body>
+</html>

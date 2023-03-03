@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form>
+<fieldset>
+	<legend>여러 데이터 나열</legend>
+		<label for="select">select</label>
+		<select size="3" id="select"></select>
+			<option value="1">1번</option>
+			<option value="2">2번</option>	
+			<option value="3">3번</option>				
+
+</fieldset>
+</form>
+
+</body>
+</html>

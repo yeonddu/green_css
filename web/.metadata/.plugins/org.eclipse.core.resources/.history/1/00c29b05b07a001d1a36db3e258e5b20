@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form>
+<fieldset>
+	<legend>그룹 제목</legend>
+	<ul>
+		<li>
+			<label>autofocus</label>
+			<input type="text" autofocus>
+			<label for="user_pw">10자리 비밀번호(*로 표시)</label>
+			<input type="password" id="user_pw" size="10">
+		</li>
+	</ul>
+</fieldset>
+</form>
+
+</body>
+</html>

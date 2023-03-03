@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>Transform</title>
+<style>
+	.origin {
+		width:200px;
+		height:133px;
+		border:1px solid black;
+		float:left;
+		margin:40px;
+	}
+	.dog {
+		transform:rotateZ(10deg);
+	}
+	.ltop .dog {
+		transform-origin:left top;
+	}
+	.rtop .dog {
+		transform-origin:right top;
+	}
+	.lbottom .dog {
+		transform-origin:left bottom;
+	}
+	.rbottom .dog {
+		transform-origin:right bottom;
+	}
+	
+</style>
+</head>
+<body>
+	<div class="origin">
+		<div class="ltop">
+			<img src="../images/dog3.jpg" alt="강아지" class="dog">
+		</div>
+	</div>
+	<div class="origin">
+		<div class="rtop">
+			<img src="../images/dog3.jpg" alt="강아지" class="dog">
+		</div>
+	</div>
+	<div class="origin">
+		<div class="lbottom">
+			<img src="../images/dog3.jpg" alt="강아지" class="dog">
+		</div>
+	</div>
+	<div class="origin">
+		<div class="rbottom">
+			<img src="../images/dog3.jpg" alt="강아지" class="dog">
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>Fluid Grid layout</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+	#wrapper {
+		width:96%;
+		margin:0 auto;
+	}
+	header {
+		width:100%;
+		height:120px;
+		background:#ECF6CE;
+		border-bottom:1px solid green;
+	}
+	.header-text {
+		font-size:4em;
+		color:#bbb;
+		text-align:center;
+		line-height:120px;
+	}
+	.content {
+		float:left;
+		width:62.5%;
+		height:400px;
+		padding:1.5625%;
+		background:#F8ECE0;
+	}
+	.content img {
+		max-width:100%;
+		height:auto;
+	}
+	.right-side {
+		float:right;
+		width:31.25%;
+		height:400px;
+		padding:1.5625%;
+		background:#F5F6CE;	
+	}
+	footer {
+		clear:both;
+		width:100%;
+		height:120px;
+		background:#FBEFEF;
+	}
+</style>
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<h1 class="header-text">가변 그리드 레이아웃</h1>
+		</header>
+		<section class="content">
+			<h4>본문</h4>
+			<img src="../images/dog.png" alt="강아지">
+		</section>
+		<aside class="right-side">
+			<h4>사이드바</h4>
+		</aside>
+		<footer>
+			<h4>푸터</h4>
+		</footer>
+	</div>
+</body>
+</html>

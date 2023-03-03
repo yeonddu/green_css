@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<style>
+
+	div {
+		display:inline-block;
+		width:100px;
+		height:500px;
+		margin:15px;
+	}
+	.box1 {		
+		border:2px solid black;
+		box-shadow:2px 2px 5px 5px gray;
+	}
+	.box2 {
+		border:2px solid black;
+		border-radius:20px;
+	}
+</style>
+</head>
+<body>
+	<p>display:inline-block</p>
+	<div class="box1">box1 : box-shadow</div>
+	<div class="box2">box2 : border-radius</div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>Insert title here</title>
+</head>
+<body>
+<body>
+<table>
+	<caption>제주특별자치도 학교현황(2015.4.1 기준)</caption>
+	<thead>
+		<tr>
+			<th>thead</th>
+			<th>thead</th>
+			<th>thead</th>
+		</tr>		
+	</thead>
+	<tbody>
+		<tr>
+			<th>tbody</th>
+			<td>tbody</td>
+			<td>tbody</td>
+		</tr>
+		<tr>
+			<th>tbody</th>
+			<td>tbody</td>
+			<td>tbody</td>
+		</tr>
+	</tbody>
+	<tfoot>
+		<tr>
+			<th>합계</th>
+			<td>300</td>
+			<td>3,437</td>
+			<td>86,954</td>
+			<td>6,111</td>
+		</tr>
+	</tfoot>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>Insert title here</title>
+<style>
+	table, th, td {
+		border:1px solid #ccc;
+	}
+	th, td {
+	width:80px;
+	}
+</style>
+</head>
+<body>
+<body>
+<table>
+	<caption>thead, tbody, tfoot</caption>
+	<thead>
+		<tr>
+			<th>th</th>
+			<th>th</th>
+		</tr>		
+	</thead>
+	<tbody>
+		<tr>
+			<th>th</th>
+			<td>td</td>
+		</tr>
+		<tr>
+			<th>th</th>
+			<td>td</td>
+		</tr>
+	</tbody>
+	<tfoot>
+		<tr>
+			<th>th</th>
+			<td>td</td>
+		</tr>
+	</tfoot>
+</table>
+
+</body>
+</html>

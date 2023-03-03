@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>Transform</title>
+<style>
+	#no-pers, #pers {
+		width:200px;
+		height:125px;
+		border:1px solid black;
+		margin:30px;
+		float:left;
+	}
+	
+	.rotatex img {
+		transform:rotateX(50deg);
+	}
+	
+	#pers {
+		perspective:300px;
+	}
+</style>
+</head>
+<body>
+	<h4>원본 이미지</h4>
+	<div>
+		<img src="../images/dog1.jpg" alt="강아지">
+	</div>
+	<div id="no-pers">
+		<div class="rotatex">
+		<img src="../images/dog1.jpg" alt="강아지">
+		</div>
+	</div>
+	<div id="pers">
+		<div class="rotatex">
+		<img src="../images/dog1.jpg" alt="강아지">
+		</div>
+	</div>
+</body>
+</html>

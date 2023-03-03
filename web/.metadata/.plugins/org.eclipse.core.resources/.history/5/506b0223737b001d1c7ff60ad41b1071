@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>layout</title>
+<style>
+	* {
+		margin:0;
+		padding:0;
+	}
+	body {
+		font-size:12px;
+		color:rgb(64, 128, 128);
+		font-weight:bold;
+	}
+	.container {
+		position:absolute;
+		width:700px;
+	}
+	header {
+		position:relative;
+		height:60px;
+	}
+	
+	nav {
+		position:relative;
+		height:40px;
+	}
+	section {
+		position:relative;
+		float:left;
+		width:450px;
+		height:150px;
+	}
+	aside {
+		position:relative;
+		float:right;
+		width:200px;
+		height:150px;
+	}
+	footer {
+		position:relative;
+		clear:both;
+		height:100px;
+		background-color:rgb(230, 242, 242);
+	}
+
+	#address {		
+		position:absolute;
+		top:10px;
+		left:80px;
+		width:550px;
+		height:50px;
+		padding:20px 30px;
+		background:white;
+		font-size:5px;
+		font-weight:normal;
+		color:gray;
+		
+	}
+	header, nav, section, aside, footer {
+		border:2px solid rgb(140, 198, 198);
+		margin:5px;
+		padding:5px;
+	}
+</style>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<p>상단 헤더</p>
+		</header>
+		<nav>
+			<p>내비게이션 메뉴
+		</nav>
+		
+		<section>
+			<p> 메인 콘텐츠</p>
+		</section>
+		<aside>
+			<p>사이드바</p>
+		</aside>
+		<footer>
+			<p>하단 푸터</p>
+			<div id="address">
+				<p>루베토 손해보험(주) | 대표이사 | 홍길동 | 사업자등록번호:123-45-123456<br>
+				전화 : 02-123-4567 | 서울시 강남구 가나다동 123번지</p>
+				<p>Copyright by Rubato Company All Right Reserved.</p>
+			</div>
+			<div id="customer">
+				<p>고객센터 1588-1234</p>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

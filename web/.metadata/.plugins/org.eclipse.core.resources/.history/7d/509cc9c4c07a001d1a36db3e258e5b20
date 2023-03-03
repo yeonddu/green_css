@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<style>
+	table {
+		border:1px solid gray;
+		border-collapse:collapse;
+	}
+	td {
+		border:1px solid gray;
+		width:100px;
+		height:100px;
+		padding:10px;
+	}
+	.td1 {
+		vertical-align:top;
+	}
+	.td2 {
+		vertical-align:middle;
+	}
+	.td3 {
+		vertical-align:bottom;
+	}
+	.td4 {
+		text-align:left;
+	}
+	.td5 {
+		text-align:center;
+	}
+	.td6 {
+		text-align:right;
+	}
+
+</style>
+</head>
+<body>
+	<table>
+	<p>border-collapse:collapse</p>
+		<tr>
+			<td class="td1">vertical-align:top</td>
+			<td class="td2">vertical-align:middle</td>
+			<td class="td3">vertical-align:bottom</td>
+		</tr>
+		<tr>
+			<td class="td4">text-align:left</td>
+			<td class="td5">text-align:center</td>
+			<td class="td6">text-align:right</td>
+		</tr>		
+	</table>
+</body>
+</html>
